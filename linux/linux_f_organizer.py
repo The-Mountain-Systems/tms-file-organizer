@@ -57,7 +57,7 @@ def main():
     while choice != "Q":
         intro.show_banner()                    
         choice = input("Enter your choice: ")  
-        result = str(intro.options(choice))
+        result = intro.options(choice)
 
         if result == '1':
             organize_img()
