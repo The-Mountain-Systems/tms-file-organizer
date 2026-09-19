@@ -1,7 +1,18 @@
 #!/bin/python3
-import shutil
+import shutil,exifread
 from modules import IntroScreen
 
+def organize_img():
+    pass
+
+def organize_docs():
+    pass
+
+def organize_dsktp():
+    pass
+
+def organize_downloads():
+    pass
 def main():
     # Intro Screen
     intro = IntroScreen('Linux','1.0')
@@ -9,6 +20,4 @@ def main():
 
     choice = input("Enter your choice: ")  
     result = intro.options(choice)
-
-    print(result) 
     
